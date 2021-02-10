@@ -20,7 +20,7 @@ At the end of the programming exercise you should have:
 ### List of all search quaries we did to solve it
 [Here is a link to all our search queries](https://docs.google.com/document/d/1m8zRuxxQiVdPDvkXZb9YRje8edSh46jnw3XctwncNTM)
 
-### 3 biggest stumbling blocks
+### Three biggest stumbling blocks
 Figuring what the problem description was telling us  
 Figuring out how to use python  
 Figuring out how to convert bit to byte to ascii and reversing/little-endian (Just python stuff)  
