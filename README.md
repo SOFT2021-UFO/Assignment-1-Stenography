@@ -18,57 +18,33 @@ At the end of the programming exercise you should have:
 * A brief "every 30 min" diary as explained in the slides (this is more frequent than one would normally do, and is just meant as part of the exercise)
 
 ### List of all search quaries we did to solve it
+[Here is a link to all our search queries](https://docs.google.com/document/d/1m8zRuxxQiVdPDvkXZb9YRje8edSh46jnw3XctwncNTM)
 
-<details>
-  <summary>Jonatan - (click me)</summary>    
-
-</details> 
+## 3 biggest stumbling blocks
 
 
-<details>
-  <summary>Jonas - (click me)</summary>    
+## Diary
+### 30 minutes
+First 30 minutes consisted of us being confused about how exactly we were supposed to clear the stenography exercise.
+Every encoder/decoder we found did not work, which discouraged us a bit
 
--  12:56 PM python - Pillow installed, but getting "no module named pillow" when importing - Stack Overflow  
-- 12:55 PM francescortiz/image: Django application that provides cropping, resizing, thumbnailing, overlays, tint and mask for images and videos with the ability to set the center of attention in order to have automatic perfect cropping.
-- 12:53 PM python - ImportError: No module named PIL - Stack Overflow
-- 12:53 PM from PIL import Image ModuleNotFoundError: No module named 'Image' - Google Search
-- 12:52 PM Python Pillow - Using Image Module - Tutorialspoint
-- 12:51 PM how to import pillow python - Google Search
-- 12:50 PM Installing, Importing, and Aliasing Modules in Python 3 | DigitalOcean
-- 12:49 PM how to inport libary in python - Google Search
-- 12:42 PM Installation — Pillow (PIL Fork) 5.1.0 documentation
-- 12:40 PM Pillow — Pillow (PIL Fork) 5.1.0 documentation
-- 12:40 PM python - Can't import PIL library - Stack Overflow
-- 12:40 PM can't import pil python - Google Search
-- 12:38 PM Python Script 13: Generating ascii code from Image - https://pythoncircle.com
-- 12:38 PM how to find ascii message stored in pixel python - Google Search
-- 12:35 PM www.pythonware.com
-- 12:25 PM What Is Little-Endian And Big-Endian Byte Ordering? | Section
-- 12:25 PM what is little-endian - Google Search
-- 12:16 PM Social Network for Programmers and Developers
-- 12:16 PM Python Program to Find ASCII Value of Character
-</details>  
+### 60 minutes
+After some research and conversing with a classmate we now know how we are supposed to clear the assignment.
 
-<details>
-  <summary>Thomas - (click me)</summary>    
+Since we are all python noobs, most of these 30 minutes were spent setting up python and getting a better understanding of how to use the language and setup the environment.
 
-  - 12:23 Google - What is stenography
-  - 12:23 https://en.wikipedia.org/wiki/Shorthand
-  - 12:25 Google - Python Steganography
-  - 12:25 https://www.geeksforgeeks.org/image-based-steganography-using-python/
-  - 12:35 Google - python steganography image pixels
-  - 12:35 https://medium.com/swlh/lsb-image-steganography-using-python-2bbbee2c69a2
-  - 12:45 Google - python ascii image steganography
-  - 12:47 https://www.tutorialspoint.com/image-based-steganography-using-python
-  - 12:50 Google - how to find hidden message in image at pixel value
-  - 12:51 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.457&rep=rep1&type=pdf
-  - 12:57 Google - Little-endian 
-  - 12:57 https://searchnetworking.techtarget.com/definition/big-endian-and-little-endian
-  - 13:05 Google - Python Pillow rgba get pixel at blue channel
-  - 13:10 https://stackoverflow.com/questions/59320564/how-to-access-and-change-color-channels-using-pil
-  - 13:21 Google - Python binary to ascii
-  - 13:21 https://www.tutorialspoint.com/python_text_processing/python_conversion_binary_ascii.htm#:~:text=The%20ASCII%20to%20binary%20and,data%20and%20do%20the%20conversion.
-</details> 
+## 1 hour 30 minutes
+We found a python library called Pillow which can be used to process images.
+With Pillow, we “open” the image, and extract all the bytes from it’s blue RGB channel into an array of bits.
+
+After that we take the least significant bit of all the values in the array and convert them into new objects of 8 bits each, which becomes a bytearray, because we need 8 bits for a byte.
+
+After that we have to reverse the byte array because Martin bamboozled us, when he encoded the image.
+
+To get the message from the byte array, we iterate through every byte object and convert them to binary, till we reach the null-byte “00000000”.
+
+We can then convert binary to ascii characters and get the message: “Congratulations, this is the secret message of the UFO class! (no, not 42)”
+
 
 ## Question to be investigated
 <img src="./misc/exercise.png">
