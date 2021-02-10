@@ -50,7 +50,7 @@ At the end of the programming exercise you should have:
 </details>  
 
 <details>
-  <summary>Jonatan - (click me)</summary>    
+  <summary>Thomas - (click me)</summary>    
 
   - 12:23 Google - What is stenography
   - 12:23 https://en.wikipedia.org/wiki/Shorthand
