@@ -18,8 +18,9 @@ At the end of the programming exercise you should have:
 * A brief "every 30 min" diary as explained in the slides (this is more frequent than one would normally do, and is just meant as part of the exercise)
 
 ### List of all search quaries we did to solve it
-#### Jonas
-- 12:56 PM python - Pillow installed, but getting "no module named pillow" when importing - Stack Overflow
+<details>
+  <summary>Jonas (click me)</summary>
+  - 12:56 PM python - Pillow installed, but getting "no module named pillow" when importing - Stack Overflow
 - 12:55 PM francescortiz/image: Django application that provides cropping, resizing, thumbnailing, overlays, tint and mask for images and videos with the ability to set the center of attention in order to have automatic perfect cropping.
 - 12:53 PM python - ImportError: No module named PIL - Stack Overflow
 - 12:53 PM from PIL import Image ModuleNotFoundError: No module named 'Image' - Google Search
@@ -39,6 +40,7 @@ At the end of the programming exercise you should have:
 - 12:16 PM Social Network for Programmers and Developers
 - 12:16 PM Python Program to Find ASCII Value of Character
 
+</details>
 
 ## Question to be investigated
 <img src="./misc/exercise.png">
