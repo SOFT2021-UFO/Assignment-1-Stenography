@@ -18,9 +18,17 @@ At the end of the programming exercise you should have:
 * A brief "every 30 min" diary as explained in the slides (this is more frequent than one would normally do, and is just meant as part of the exercise)
 
 ### List of all search quaries we did to solve it
+
 <details>
-  <summary>Jonas (click me)</summary>
-  - 12:56 PM python - Pillow installed, but getting "no module named pillow" when importing - Stack Overflow
+  <summary>Jonatan - (click me)</summary>    
+
+</details> 
+
+
+<details>
+  <summary>Jonas - (click me)</summary>    
+
+-  12:56 PM python - Pillow installed, but getting "no module named pillow" when importing - Stack Overflow  
 - 12:55 PM francescortiz/image: Django application that provides cropping, resizing, thumbnailing, overlays, tint and mask for images and videos with the ability to set the center of attention in order to have automatic perfect cropping.
 - 12:53 PM python - ImportError: No module named PIL - Stack Overflow
 - 12:53 PM from PIL import Image ModuleNotFoundError: No module named 'Image' - Google Search
@@ -39,8 +47,28 @@ At the end of the programming exercise you should have:
 - 12:25 PM what is little-endian - Google Search
 - 12:16 PM Social Network for Programmers and Developers
 - 12:16 PM Python Program to Find ASCII Value of Character
+</details>  
 
-</details>
+<details>
+  <summary>Jonatan - (click me)</summary>    
+
+  - 12:23 Google - What is stenography
+  - 12:23 https://en.wikipedia.org/wiki/Shorthand
+  - 12:25 Google - Python Steganography
+  - 12:25 https://www.geeksforgeeks.org/image-based-steganography-using-python/
+  - 12:35 Google - python steganography image pixels
+  - 12:35 https://medium.com/swlh/lsb-image-steganography-using-python-2bbbee2c69a2
+  - 12:45 Google - python ascii image steganography
+  - 12:47 https://www.tutorialspoint.com/image-based-steganography-using-python
+  - 12:50 Google - how to find hidden message in image at pixel value
+  - 12:51 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.457&rep=rep1&type=pdf
+  - 12:57 Google - Little-endian 
+  - 12:57 https://searchnetworking.techtarget.com/definition/big-endian-and-little-endian
+  - 13:05 Google - Python Pillow rgba get pixel at blue channel
+  - 13:10 https://stackoverflow.com/questions/59320564/how-to-access-and-change-color-channels-using-pil
+  - 13:21 Google - Python binary to ascii
+  - 13:21 https://www.tutorialspoint.com/python_text_processing/python_conversion_binary_ascii.htm#:~:text=The%20ASCII%20to%20binary%20and,data%20and%20do%20the%20conversion.
+</details> 
 
 ## Question to be investigated
 <img src="./misc/exercise.png">
