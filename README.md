@@ -33,17 +33,17 @@ When we started googling the problem most of the solutions/helps to solving the 
 When we figured out the basics of python, like how to install and run a python file we then got some help from one of our classmates. He showed us how to do some tricks with easy converting byte to ascii chars and reversing the order of arrays.     
 
 
-## Diary
-### 30 minutes
+###  Diary
+#### 30 minutes
 First 30 minutes consisted of us being confused about how exactly we were supposed to clear the stenography exercise.  
 Every encoder/decoder we found did not work, which discouraged us a bit.  
 
-### 60 minutes
+####  60 minutes
 After some research and conversing with a classmate we now know how we are supposed to clear the assignment.  
 
 Since we are all python noobs, most of these 30 minutes were spent setting up python and getting a better understanding of how to use the language and setup the environment.  
 
-## 1 hour 30 minutes
+#### 1 hour 30 minutes
 We found a python library called Pillow which can be used to process images.
 With Pillow, we “open” the image, and extract all the bytes from it’s blue RGB channel into an array of bits.  
 
