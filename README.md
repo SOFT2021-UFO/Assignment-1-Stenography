@@ -2,7 +2,7 @@
 - Jonatan Bakke https://github.com/JonatanMagnusBakke
 - Jonas Hein - https://github.com/Zenzus
 - Thomas Ebsen - https://github.com/Srax 
-- Exercise Link https://datsoftlyngby.github.io/soft2021spring/UFO/week-05/#1-introduction-to-exploration-and-presentation  '
+- [Exercise Link](https://datsoftlyngby.github.io/soft2021spring/UFO/week-05/#1-introduction-to-exploration-and-presentation)
 
 
 ## Homework Assignment
