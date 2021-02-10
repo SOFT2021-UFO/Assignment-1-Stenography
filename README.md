@@ -1,5 +1,4 @@
 # UFO - Assignment 1 Stenography
-- Andeas Jørgensen - https://github.com/DDomino
 - Jonatan Bakke https://github.com/JonatanMagnusBakke
 - Jonas Hein - https://github.com/Zenzus
 - Thomas Ebsen - https://github.com/Srax 
