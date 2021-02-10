@@ -20,30 +20,40 @@ At the end of the programming exercise you should have:
 ### List of all search quaries we did to solve it
 [Here is a link to all our search queries](https://docs.google.com/document/d/1m8zRuxxQiVdPDvkXZb9YRje8edSh46jnw3XctwncNTM)
 
-## 3 biggest stumbling blocks
+### 3 biggest stumbling blocks
+Figuring what the problem description was telling us  
+Figuring out how to use python  
+Figuring out how to convert bit to byte to ascii and reversing/little-endian (Just python stuff)  
+
+**Solutions**
+The homework description was hard to read and understand.   
+
+When we started googling the problem most of the solutions/helps to solving the problem was made with python. So since none of us had any experience using python we had an initial problem in learning python.  
+
+When we figured out the basics of python, like how to install and run a python file we then got some help from one of our classmates. He showed us how to do some tricks with easy converting byte to ascii chars and reversing the order of arrays.     
 
 
 ## Diary
 ### 30 minutes
-First 30 minutes consisted of us being confused about how exactly we were supposed to clear the stenography exercise.
-Every encoder/decoder we found did not work, which discouraged us a bit
+First 30 minutes consisted of us being confused about how exactly we were supposed to clear the stenography exercise.  
+Every encoder/decoder we found did not work, which discouraged us a bit.  
 
 ### 60 minutes
-After some research and conversing with a classmate we now know how we are supposed to clear the assignment.
+After some research and conversing with a classmate we now know how we are supposed to clear the assignment.  
 
-Since we are all python noobs, most of these 30 minutes were spent setting up python and getting a better understanding of how to use the language and setup the environment.
+Since we are all python noobs, most of these 30 minutes were spent setting up python and getting a better understanding of how to use the language and setup the environment.  
 
 ## 1 hour 30 minutes
 We found a python library called Pillow which can be used to process images.
-With Pillow, we “open” the image, and extract all the bytes from it’s blue RGB channel into an array of bits.
+With Pillow, we “open” the image, and extract all the bytes from it’s blue RGB channel into an array of bits.  
 
-After that we take the least significant bit of all the values in the array and convert them into new objects of 8 bits each, which becomes a bytearray, because we need 8 bits for a byte.
+After that we take the least significant bit of all the values in the array and convert them into new objects of 8 bits each, which becomes a bytearray, because we need 8 bits for a byte.  
 
-After that we have to reverse the byte array because Martin bamboozled us, when he encoded the image.
+After that we have to reverse the byte array because Martin bamboozled us, when he encoded the image.  
 
-To get the message from the byte array, we iterate through every byte object and convert them to binary, till we reach the null-byte “00000000”.
+To get the message from the byte array, we iterate through every byte object and convert them to binary, till we reach the null-byte “00000000”.  
 
-We can then convert binary to ascii characters and get the message: “Congratulations, this is the secret message of the UFO class! (no, not 42)”
+We can then convert binary to ascii characters and get the message: “Congratulations, this is the secret message of the UFO class! (no, not 42)”  
 
 
 ## Question to be investigated
