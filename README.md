@@ -1,4 +1,4 @@
-# UFO - Assignment 1 Stenography
+# UFO - Assignment Work log & Steganography Challenge
 - Jonatan Bakke https://github.com/JonatanMagnusBakke
 - Jonas Hein - https://github.com/Zenzus
 - Thomas Ebsen - https://github.com/Srax 
